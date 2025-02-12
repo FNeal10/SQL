@@ -1,0 +1,5 @@
+SELECT
+prd.product_name,
+sls.year,
+sls.price
+FROM Sales sls LEFT JOIN Product prd ON sls.product_id=prd.product_id
